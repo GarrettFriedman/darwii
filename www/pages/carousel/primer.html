@@ -70,11 +70,23 @@
 
 
 
-<div class="container" id="primerstool">
-<div class="row-fluid">
-<div class="span6">Measured concentration</div>
-<div class="span6"> Molecular Weight</div>
-</div>
+<div class="container marketing" id="primerstool">
+   
+
+<form>
+      <label class="label1">First Value:</label>
+      <input type="text" id="FirstValue" value=" " />
+      <label class="label1">Second Value:</label>
+      <input type="text" id="SecondValue" value=" " />
+      <label class="label1">Answer: </label>
+      <input type="text" id="Answer" value=" " />
+      <input type="button" onclick="primersCalculate()" value="Submit form">
+
+
+</form>
+
+
+
 </div>
 
 
@@ -102,5 +114,6 @@
     <script src="../../docs-assets/js/jquery.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
     <script src="../../docs-assets/js/holder.js"></script>
+    <script src="../../docs-assets/js/primers.js"></script>
   </body>
 </html>
